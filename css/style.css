@@ -61,3 +61,25 @@ header nav li:hover {
     background-color: #3a3d3b;
     transition: ease-in-out 0.8s;
 }
+
+/*Showcase*/
+#showcase {
+    background: url(../img/showcase.jpg) no-repeat center/cover;
+    height: 82vh;
+    border-bottom: #ff0015 4px solid;
+}
+
+#showcase h3,
+p {
+    text-align: center;
+    color: #000dff;
+}
+
+#showcase h3 {
+    margin-top: 25vh;
+    font-size: 35px;
+}
+
+#showcase p {
+    font-size: 25px;
+}
