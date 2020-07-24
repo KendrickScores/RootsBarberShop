@@ -37,7 +37,7 @@ a {
 
 /* Header-Nav*/
 header {
-    background-color: #1ddbbf;
+    background-color: aqua;
     padding: 15px;
     border-bottom: #ff0015 solid 4px;
 }
@@ -105,9 +105,49 @@ p {
 #newsletter {
     text-align: center;
     font-size: 18px;
+    padding: 20px;
+    background-color: #1ddbbf;
 }
 
 #newsletter .tbox,
 .btn {
     padding: 15px;
+}
+
+/*Footer*/
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: aqua;
+}
+
+footer h1 {
+    margin-top: 25px;
+}
+
+footer p {
+    color: #000;
+}
+
+footer ul {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    color: #000;
+}
+
+footer li {
+    display: block;
+    line-height: 4rem;
+}
+
+footer a {
+    color: #000;
+}
+
+footer a:hover {
+    background-color: #3a3d3b;
+    transition: 0.8s;
+    padding: 15px;
+    color: #fff;
 }
