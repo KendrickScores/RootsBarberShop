@@ -23,6 +23,8 @@ body {
 
 ul {
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 li {
@@ -113,6 +115,44 @@ p {
 .btn {
     padding: 15px;
 }
+
+/*   Sevices Css    */
+
+#services {
+    text-align: center;
+}
+
+#services h1 {
+    margin-top: 20px;
+}
+
+#services li {
+    text-align: left;
+    margin-left: 100px;
+    margin-right: auto;
+}
+
+#services ul {
+    list-style: circle;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*Footer*/
 footer {
