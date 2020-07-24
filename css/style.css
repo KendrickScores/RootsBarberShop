@@ -144,9 +144,16 @@ header nav li:hover {
     list-style: circle;
 }
 
+/*      Contact Css     */
 #contact {
     text-align: center;
 }
+
+/*      About Css       */
+#about h1 {
+    text-align: center;
+}
+
 
 /*Book Now*/
 #book-now {
