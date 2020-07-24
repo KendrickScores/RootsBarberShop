@@ -21,10 +21,13 @@ body {
     background-color: #3a3d3b;
 }
 
+.button {
+    padding: 15px;
+    background-color: #ff0015;
+}
+
 ul {
     list-style: none;
-    padding: 0;
-    margin: 0;
 }
 
 li {
@@ -44,6 +47,7 @@ header {
     border-bottom: #ff0015 solid 4px;
 }
 
+
 header .branding {
     float: left;
 }
@@ -56,7 +60,7 @@ header li {
 
 header nav {
     float: right;
-    margin-top: 8px;
+    margin-top: 10px;
 }
 
 header nav li:hover {
@@ -71,10 +75,14 @@ header nav li:hover {
     border-bottom: #ff0015 4px solid;
 }
 
-#showcase h3,
-p {
+#showcase h3 {
     text-align: center;
     color: #000dff;
+}
+
+#showcase p {
+    color: #000dff;
+    text-align: center;
 }
 
 #showcase h3 {
@@ -136,6 +144,11 @@ p {
     list-style: circle;
 }
 
+/*Book Now*/
+#book-now {
+    text-align: center;
+    color: #fff;
+}
 
 
 
