@@ -83,3 +83,31 @@ p {
 #showcase p {
     font-size: 25px;
 }
+
+/*Boxes*/
+#boxes {
+    margin-top: 20px;
+}
+
+#boxes .box {
+    float: left;
+    width: 33.3%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#boxes .box img {
+    width: 250px;
+}
+
+/*Newsletter*/
+#newsletter {
+    text-align: center;
+    font-size: 18px;
+}
+
+#newsletter .tbox,
+.btn {
+    padding: 15px;
+}
