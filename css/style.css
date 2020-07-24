@@ -144,28 +144,15 @@ header nav li:hover {
     list-style: circle;
 }
 
+#contact {
+    text-align: center;
+}
+
 /*Book Now*/
 #book-now {
     text-align: center;
     color: #fff;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*Footer*/
 footer {
