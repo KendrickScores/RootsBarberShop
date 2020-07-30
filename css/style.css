@@ -91,19 +91,13 @@ header nav li:hover {
 #showcase h3 {
     text-align: center;
     color: #000dff;
-}
-
-#showcase p {
-    color: #000dff;
-    text-align: center;
-}
-
-#showcase h3 {
     margin-top: 25vh;
     font-size: 35px;
 }
 
 #showcase p {
+    color: #000dff;
+    text-align: center;
     font-size: 25px;
 }
 
@@ -210,4 +204,183 @@ footer a:hover {
     transition: 0.8s;
     padding: 15px;
     color: #fff;
+}
+
+/*Media Querys*/
+@media(max-width: 1024px) {
+    header li {
+        padding: 0 15px;
+        font-size: 20px;
+    }
+
+    #showcase {
+        height: 50vh;
+    }
+
+    #showcase h3 {
+        text-align: center;
+        color: #000dff;
+        margin-top: 15vh;
+        font-size: 35px;
+    }
+
+    #showcase p {
+        color: #000dff;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    #boxes .box {
+        float: left;
+        width: 33.3%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    footer li {
+        display: inline;
+        line-height: 4rem;
+        padding: 0 15px;
+    }
+}
+
+@media(max-width: 768px) {
+    .container {
+        width: 95%;
+        margin: auto;
+        overflow: hidden;
+    }
+
+    .current {
+        background: none;
+    }
+
+    header li {
+        float: left;
+        padding: 0;
+        padding-left: 20px;
+        font-size: 20px;
+    }
+
+    header nav {
+        float: right;
+    }
+
+    #boxes {
+        display: inline;
+    }
+
+    .hide-on-small {
+        display: none;
+    }
+}
+
+@media(max-width: 450px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .current {
+        background-color: #3a3d3b;
+    }
+
+    /*Header*/
+    header li {
+        float: left;
+        padding: 0px 10px 0px 10px;
+        font-size: 20px;
+    }
+
+    header nav {
+        float: left;
+    }
+
+    /*Showcase*/
+    #showcase h3 {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+
+    /*Boxes*/
+    #boxes .box {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    #boxes .box h1 {
+        margin: 15px 0;
+
+    }
+
+    /*Newsletter*/
+    #newsletter p {
+        line-height: 1.5rem;
+        margin: 10px 0;
+    }
+
+    /*Services*/
+    #services h1 {
+        margin: 20px 0;
+    }
+
+    #services li {
+        text-align: left;
+        margin: 8px 25px auto;
+    }
+
+    /*Book Now*/
+    #book-now {
+        text-align: center;
+        color: #fff;
+        margin: 20px 0;
+    }
+
+    #book-now p {
+        margin-bottom: 15px;
+        margin-top: 10px;
+    }
+
+    /*Contact*/
+    #contact h1 {
+        margin: 15px 0;
+    }
+
+    /*About*/
+    #about h1 {
+        margin: 15px 0;
+    }
+
+    /*Footer*/
+    footer li {
+        display: none;
+    }
+
+    footer h3 {
+        display: none;
+    }
+}
+
+@media(max-width: 375px) {
+
+    /*Header*/
+    header li {
+        float: left;
+        padding: 0px 10px 0px 10px;
+        font-size: 16px;
+    }
+
+    #newsletter .btn {
+        margin-top: 15px;
+    }
+
+    #contact p {
+        font-size: 15px
+    }
+
+    #book-now p {
+        font-size: 15px;
+    }
 }
