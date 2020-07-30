@@ -276,7 +276,7 @@ footer a:hover {
     }
 }
 
-@media(max-width: 450px) {
+@media(max-width: 727px) {
     * {
         margin: 0;
         padding: 0;
