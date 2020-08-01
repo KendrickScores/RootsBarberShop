@@ -3,14 +3,17 @@
 
 <head>
   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-174151214-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-174151214-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-174151214-1');
-</script>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-174151214-1');
+  </script>
 
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -93,12 +96,13 @@
   <!--Newsletter-->
   <section id="newsletter" data-aos="fade-right" data-aos-duration="2000">
     <div class="container">
-      <form method="POST">
+      <form name="Newsletter" method="POST" data-netlify="true">
         <h1>Join Our Newsletter</h1>
         <p>Join our newsletter to stay Up-To-Date on all related news</p>
         <div class="email-box">
           <i class="fas fa-envelope"></i>
           <input class="tbox" type="email" name="email" placeholder="Enter your email" required>
+          <div data-netlify-recaptcha="true"></div>
           <button class="btn" type="submit" name="button">Subscribe</button>
         </div>
     </div>
